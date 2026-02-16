@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #084C50,#B8B902);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    width: 50%;
+    background-color: white;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.login{
+    text-align: center;
+    width: 50%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    line-height: 2;
+    font-family: Arial;
+}
+.login h2{
+    font-family: arial;
+    font-size: 30px;
+}
+.logs-type{
+    display: flex;
+    gap: 5px;
+}
+.logs-type a{
+    border: 1px solid #004754;
+    border-radius: 10px;
+    padding: 5px;
+    width: 40px;
+    text-decoration: none;
+    color: #004754;
+}
+.fa-brands{
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+input{
+    width: 80%;
+    padding: 10px;
+    background-color: #CCCCCC;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+    background-color: #BEBD00;
+    border: none;
+    color: white;
+    width: 40%;
+    cursor: pointer;
+}
+.hello{
+    background-color: #004754;
+    color: white;
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-family: arial;
+}
+.hello a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.registre{
+    order: 1;
+}
+.he-regitres{
+    border-radius: 20px 20% 20% 20px;
+    text-align: center;
+}
+.registre button{
+    width: 25%;
+}
